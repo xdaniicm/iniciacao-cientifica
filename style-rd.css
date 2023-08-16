@@ -1,0 +1,28 @@
+.cabecalho {
+    background: linear-gradient(to right, #0f141e 40%, #233154);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.img-cabec {
+    height: 75px;
+}
+.txt-cabec {
+    color: white;
+    font-size: 90px;
+    font-family: Bebas Neue Regular;
+    padding-left: 30px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+.linha-cabec {
+    background-color: red;
+    height: 100%;
+}
+
+.teste {
+    background-color: red;
+}
