@@ -69,7 +69,7 @@ header {
 }
 
 .conteudo-titulo h1 {
-    font-size: 50px;
+    font-size: 80px;
     color: white;
     font-family: Bebas Neue Regular;
 }
@@ -78,4 +78,45 @@ header {
     color: white;
     font-family: Open Sans;
     font-size: 15px;
+}
+
+.conteudo {
+    border-color: #9999;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+}
+
+.conteudo-texto {
+    color: white;
+    font-family: Open Sans;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.conteudo-texto b {
+    color: white;
+    font-family: Bebas Neue Regular;
+    font-size: 50px;
+}
+
+.conteudo2-rd {
+    margin-top: 70px;
+}
+
+#instagram {
+    width: 70px;
+    display: flex;
+}
+
+#rodapé-rd {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+#detalhe-rd {
+    width: 20%;
+    float: right;
 }
