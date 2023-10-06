@@ -19,7 +19,7 @@ body {
     padding: 0 100px;
 }
 
-header {
+header, .conteudo-slogan, .conteudo-autismo1, footer {
     border-color: #9999;
     border-style: solid;
     border-width: 0 1px 1px 1px;
@@ -43,7 +43,7 @@ header {
 }
 
 .cabecalho-menu-item {
-    font-weight: 400;
+    font-weight: 300;
     text-decoration: none;
     color: #f4f5f2;
     position: relative;
@@ -62,6 +62,7 @@ header {
 
 .cabecalho-menu-item:hover::after{
     width: 30px;
+
 }
 
 .conteudo-titulo {
@@ -103,11 +104,21 @@ header {
 
 .conteudo2-rd {
     margin-top: 70px;
+    flex-direction: row;
+}
+
+.simbolos {
+    display: flex;
 }
 
 #instagram {
     width: 70px;
-    display: flex;
+}
+
+#twitter {
+    width: 60px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 #rodapé-rd {
@@ -119,4 +130,137 @@ header {
 #detalhe-rd {
     width: 20%;
     float: right;
+}
+
+:root {
+    --color-neutral-0: #dbdbd9;
+    --color-neutral-10: #f4f5f2;
+    --color-neutral-30: #0F141E;
+    --color-neutral-40: #233154;
+}
+
+footer {
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    width: 100%;
+    color: var(--color-neutral-0);
+
+
+
+}
+
+rodape-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+    gap: 2rems;
+}
+
+.rodape-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 72rem;
+    justify-content: space-around;
+}
+
+.rodape-info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape-descricao {
+    text-align: center;
+    max-width: 20rem;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.rodape-info1 img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    flex: 3;
+}
+
+.rodape-info2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    line-height: 40px;
+}
+
+.rodape-redessociais {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    margin-left: 100px;
+    line-height: 40px;
+}
+
+.rodape-redessociais .rodape-link {
+    color: var(--color-neutral-0);
+}
+
+.rodape-nav {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    line-height: 40px;
+}
+
+.rodape-nav .rodape-link {
+    color: var(--color-neutral-0);
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.rodape-nav .rodape-link:hover {
+    color: #e8592c;
+}
+
+.rodape-redessociais .rodape-link:hover {
+    color: #e8592c;
+    transition: all 0.4s;
+}
+
+
+
+
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-secondary {
+    color: var(--color-secondary);
+}
+
+.text-center {
+    text-align: center;
 }

@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --color-primary: #4aa5d8;
+    --color-secondary: #e8592c;
+    --color-white: #f4f5f2;
+}
+
+body {
+    font-size: 100%;
+    background: url(img/gradiente.png) right -350px bottom 750px no-repeat, url(img/gradiente2.png) left -300px bottom -200px no-repeat,  linear-gradient(to right, #0F141E 40%, #233154);
+    padding: 0 100px;
+}
+
+header, .conteudo-slogan, .conteudo-autismo1, footer {
+    border-color: #9999;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-img {
+    height: 30px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 70px;
+}
+
+.cabecalho-menu-item {
+    font-weight: 300;
+    text-decoration: none;
+    color: #f4f5f2;
+    position: relative;
+}
+
+.cabecalho-menu-item::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #417AB5, #F8A77E);
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.cabecalho-menu-item:hover::after{
+    width: 30px;
+
+}
+
+.conteudo-slogan{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-slogan-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-slogan-escrito-paragrafo1, .conteudo-slogan-escrito-paragrafo2 {
+    text-align: justify;
+    margin-left: 100px;
+    font-size: 22px;
+    margin-right: 120px;
+    font-weight: 500;
+    }
+
+.conteudo-slogan-escrito-paragrafo2 {
+    margin-bottom: 200px;
+}
+
+.conteudo-slogan-escrito-titulo {
+    font-size: 64px;
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 100px;
+    font-weight: 700;
+}
+
+.conteudo-slogan-imagem {
+    max-width:800px;
+    max-height:550px;
+    width: auto;
+    height: auto;
+    margin-right: 100px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+.conteudo-slogan-escrito-paragrafo {
+    font-size: 25px;
+}
+
+.conteudo-autismo1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-autismo1-escrito-titulo {
+    font-size: 55px;
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 100px;
+    font-weight: 700;
+}
+
+.conteudo-autismo1-escrito-subtitulo {
+    font-size: 30px;
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 0px;
+    font-weight: bold;
+    color: #bdbdbd;
+    margin-bottom: 50px;
+}
+
+.conteudo-autismo1-escrito-paragrafo1, .conteudo-autismo1-escrito-paragrafo2 {
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 500;
+    }
+
+.conteudo-autismo1-escrito-paragrafo1 {
+    margin-left: 100px;
+    margin-right: 380px;
+    margin-bottom: 70px;
+}
+
+.conteudo-autismo1-escrito-paragrafo2 {
+    margin-left: 600px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.button {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid #4aa5d8;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-left: 1430px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #4aa5d8;
+    box-shadow: 0 0 30px 5px #417AB5;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+}
+
+.button::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+    from {
+    opacity: 0;
+    left: 0%;
+    }
+
+    50% {
+    opacity: 1;
+    }
+
+    to {
+    opacity: 0;
+    left: 100%;
+    }
+}
+
+.button:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+
+:root {
+    --color-neutral-0: #dbdbd9;
+    --color-neutral-10: #f4f5f2;
+    --color-neutral-30: #0F141E;
+    --color-neutral-40: #233154;
+}
+
+footer {
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    width: 100%;
+    color: var(--color-neutral-0);
+
+
+
+}
+
+rodape-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+    gap: 2rems;
+}
+
+.rodape-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 72rem;
+    justify-content: space-around;
+}
+
+.rodape-info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape-descricao {
+    text-align: center;
+    max-width: 20rem;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.rodape-info1 img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    flex: 3;
+}
+
+.rodape-info2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    line-height: 40px;
+}
+
+.rodape-redessociais {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    margin-left: 100px;
+    line-height: 40px;
+}
+
+.rodape-redessociais .rodape-link {
+    color: var(--color-neutral-0);
+}
+
+.rodape-nav {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    line-height: 40px;
+}
+
+.rodape-nav .rodape-link {
+    color: var(--color-neutral-0);
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.rodape-nav .rodape-link:hover {
+    color: #e8592c;
+}
+
+.rodape-redessociais .rodape-link:hover {
+    color: #e8592c;
+    transition: all 0.4s;
+}
+
+
+
+
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-secondary {
+    color: var(--color-secondary);
+}
+
+.text-center {
+    text-align: center;
+}
