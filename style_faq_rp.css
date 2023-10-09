@@ -1,3 +1,56 @@
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 0 50px;
+    }
+
+    .cabecalho-menu {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho-menu {
+        gap: 30px;
+    }
+
+    body {
+        padding: 0 50px;
+    }
+
+    .cabecalho-menu-item {
+        font-size: 15px;
+    }
+
+    .cabecalho-img {
+        height: 25px;
+    }
+
+    .imagem {
+        display: flex;
+        max-width: 370px;
+        max-height: 367px;
+    }
+
+    .rodape-info2 {
+        margin-left: 30px;
+        line-height: 30px;
+    }
+
+    .rodape-redessociais {
+    margin-left: 30px;
+    line-height: 60px;
+    }
+
+    .rodape-info1 img{
+    width: 150px;
+    }
+
+    #rodape-descricao {
+    max-width: 15rem;
+    }
+}
+
+
 @media screen and (max-width: 425px) {
     body {
         padding: 0 20px;
@@ -11,30 +64,14 @@
         gap: 10px;
     }
 
-    .titulo {
-        font-size: 25px;
-    }
-
-    .titulo h2 {
-        font-size: 15px;
+    .cabecalho-menu-item {
+        font-size: 10px;
     }
 
     .imagem {
-        max-width: 200px;
-        max-height: 197px;
-        margin-left: 0;
-    }
-
-    .accordion-item-title {
-        font-size: 15px;
-    }
-
-    .accordion-item-content {
-        font-size: 10px;
-    }
-
-    .cabecalho-menu-item {
-        font-size: 10px;
+        display: flex;
+        max-width: 170px;
+        max-height: 167px;
     }
 
     .rodape-info1 img {
@@ -58,68 +95,5 @@
 
     .rodape-nav {
         font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cabecalho-menu {
-        gap: 30px;
-    }
-
-    body {
-        padding: 0 50px;
-    }
-
-    .cabecalho-menu-item {
-        font-size: 15px;
-    }
-
-    .cabecalho-img {
-        height: 25px;
-    }
-
-    .titulo {
-        font-size: 40px;
-    }
-
-    .titulo h2 {
-        font-size: 18px;
-    }
-
-    .imagem {
-        max-width: 300px;
-        max-height: 297px;
-    }
-
-    .accordion-item-content {
-        font-size: 14px;
-    }
-
-    .rodape-info2 {
-        margin-left: 30px;
-        line-height: 30px;
-}
-
-.rodape-redessociais {
-    margin-left: 30px;
-    line-height: 60px;
-}
-
-.rodape-info1 img{
-    width: 150px;
-}
-
-#rodape-descricao {
-    max-width: 15rem;
-}
-}
-
-@media screen and (max-width: 1024px) {
-    body {
-        padding: 0 50px;
-    }
-
-    .cabecalho-menu {
-        gap: 50px;
     }
 }

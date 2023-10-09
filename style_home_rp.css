@@ -16,7 +16,9 @@
     }
 
     .conteudo-slogan-imagem {
-        width: 400px;
+        max-width: 450px;
+        max-height: 450px;
+        margin-top: 150px;
     }
 
     .conteudo-slogan-escrito-paragrafo2 {
@@ -61,12 +63,21 @@
         font-size: 30px;
     }
 
-    .conteudo-slogan-escrito-paragrafo1, .conteudo-slogan-escrito-paragrafo2 {
+    .conteudo-slogan-escrito-paragrafo1 {
         font-size: 18px;
+        margin-bottom: 20px;
     }
 
     .conteudo-slogan-imagem {
-        width: 300px;
+        max-width:400px;
+        max-height:350px;
+        margin-left: 100px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .conteudo-slogan-escrito {
+        flex-direction: column;
     }
 
     .conteudo-autismo1-escrito-titulo {
@@ -138,9 +149,10 @@
         font-size: 28px;
         text-align: justify;
         margin-left: 0;
+        margin-top: 20px;
     }
 
-    .conteudo-slogan-escrito-paragrafo1, .conteudo-slogan-escrito-paragrafo2 {
+    .conteudo-slogan-escrito-paragrafo1 {
         font-size: 15px;
     }
 
@@ -150,22 +162,16 @@
         text-align: justify;
     }
 
-    .conteudo-slogan-escrito-paragrafo2 {
-        margin-left: 0px;
-        margin-right: 0;
-        text-align: justify;
-    }
-
-
-
     .conteudo-slogan-imagem {
-        max-width: 0px;
-        
+        max-width:200px;
+        max-height:250px;
+        margin-left: 100px; 
     }
 
     .conteudo-autismo1-escrito-titulo {
         font-size: 28px;
         margin-left: 0;
+        margin-top: 20px;
     }
 
     .conteudo-autismo1-escrito-subtitulo {
