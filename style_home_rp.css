@@ -38,6 +38,10 @@
     .conteudo-autismo1-escrito-paragrafo2 {
         margin-bottom: 0;
     }
+
+    .button {
+        margin-left: 650px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -82,7 +86,7 @@
     }
 
     .conteudo-autismo1-escrito-paragrafo2 {
-        margin-left: 380px;
+        margin-left: 280px;
         margin-right: 70px;
     }
 
@@ -103,6 +107,10 @@
 #rodape-descricao {
     max-width: 15rem;
 }
+
+.button {
+    margin-left: 425px;
+}
 }
 
 @media screen and (max-width: 425px) {
@@ -122,21 +130,36 @@
         font-size: 10px;
     }
 
+    .conteudo-slogan-escrito {
+        gap: 20px;
+    }
+
     .conteudo-slogan-escrito-titulo {
         font-size: 28px;
-        margin-left: 100px;
-        text-align: center;
+        text-align: justify;
+        margin-left: 0;
     }
 
     .conteudo-slogan-escrito-paragrafo1, .conteudo-slogan-escrito-paragrafo2 {
         font-size: 15px;
-        margin-left: 100px;
-        margin-right: 0;
-        text-align: center;
     }
 
+    .conteudo-slogan-escrito-paragrafo1 {
+        margin-left: 0px;
+        margin-right: 0;
+        text-align: justify;
+    }
+
+    .conteudo-slogan-escrito-paragrafo2 {
+        margin-left: 0px;
+        margin-right: 0;
+        text-align: justify;
+    }
+
+
+
     .conteudo-slogan-imagem {
-        max-width:0px;
+        max-width: 0px;
         
     }
 
@@ -186,5 +209,9 @@
 
     .rodape-nav {
         font-size: 12px;
+    }
+
+    .button {
+        margin-left: 250px;
     }
 }

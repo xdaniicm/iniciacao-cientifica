@@ -16,11 +16,11 @@
 
 body {
     font-size: 100%;
-    background: url(img/gradiente.png) right -350px bottom 750px no-repeat, url(img/gradiente2.png) left -300px bottom -200px no-repeat,  linear-gradient(to right, #0F141E 40%, #233154);
+    background: url(img/gradiente.png) right -350px bottom 400px no-repeat, url(img/gradiente2.png) left -300px bottom -200px no-repeat,  linear-gradient(to right, #0F141E 40%, #233154);
     padding: 0 100px;
 }
 
-header, .conteudo-slogan, .conteudo-autismo1, footer {
+header, .conteudo-qs1, .conteudo-qs2, footer {
     border-color: #9999;
     border-style: solid;
     border-width: 0 1px 1px 1px;
@@ -66,20 +66,20 @@ header, .conteudo-slogan, .conteudo-autismo1, footer {
 
 }
 
-.conteudo-slogan{
+.conteudo-qs1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-.conteudo-slogan-escrito {
+.conteudo-qs1-escrito {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.conteudo-slogan-escrito-paragrafo1, .conteudo-slogan-escrito-paragrafo2 {
+.conteudo-qs1-escrito-paragrafo1, .conteudo-qs1-escrito-paragrafo2 {
     text-align: justify;
     margin-left: 100px;
     font-size: 22px;
@@ -87,31 +87,64 @@ header, .conteudo-slogan, .conteudo-autismo1, footer {
     font-weight: 500;
     }
 
-.conteudo-slogan-escrito-paragrafo2 {
-    margin-bottom: 200px;
+.conteudo-qs1-escrito-paragrafo1 {
+    margin-top: 2rem;
 }
 
-.conteudo-slogan-escrito-titulo {
+.conteudo-qs1-escrito-paragrafo2 {
+    margin-bottom: 4rem;
+}
+
+.conteudo-qs1-escrito-titulo {
     font-size: 64px;
-    margin-left: 100px;
-    text-align: left;
+    text-align: center;
     margin-top: 100px;
     font-weight: 700;
 }
 
-.conteudo-slogan-imagem {
-    max-width:800px;
-    max-height:550px;
-    width: auto;
-    height: auto;
-    margin-right: 100px;
-    margin-top: -50px;
-    margin-bottom: 30px;
-}
-
-.conteudo-slogan-escrito-paragrafo {
+.conteudo-qs1-escrito-paragrafo {
     font-size: 25px;
 }
+
+
+.conteudo-qs2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-qs2-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-qs2-escrito-paragrafo1, .conteudo-qs2-escrito-paragrafo2, .conteudo-qs2-escrito-paragrafo3, .conteudo-qs2-escrito-paragrafo4 {
+    text-align: justify;
+    margin-left: 100px;
+    font-size: 22px;
+    margin-right: 120px;
+    font-weight: 500;
+    }
+
+
+.conteudo-qs2-escrito-paragrafo1 {
+    margin-top: 4rem;
+}
+
+.conteudo-qs2-escrito-paragrafo4 {
+    margin-bottom: 2rem;
+}
+
+.conteudo-qs1-escrito-paragrafo {
+    font-size: 25px;
+}
+
+
+
+
+
 
 .conteudo-autismo1 {
     display: flex;
@@ -171,7 +204,7 @@ header, .conteudo-slogan, .conteudo-autismo1, footer {
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    margin-left: 825px;
+    margin-left: 85%;
     margin-bottom: 50px;
     cursor: pointer;
 }
